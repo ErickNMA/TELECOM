@@ -87,8 +87,8 @@ for i in data:
 
 time = np.arange(0, 3, 1e-2)
 plt.figure()
-plt.plot(time, x)
-#plt.yticks(np.append(np.arange(0, 1023, (2**7)), [1023]))
+plt.plot(time, data)
+plt.yticks(np.append(np.arange(0, 1023, (2**8)), [1023]))
 plt.title('Leitura dos Sinais')
 plt.ylabel('Analog Read')
 plt.xlabel('Tempo [s]')

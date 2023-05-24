@@ -4,7 +4,7 @@
 
 #define ts 1e-2
 
-const int n = round(tf/ts);
+const long n = round(tf/ts);
 
 void sendData(int *data)
 {
